@@ -1,0 +1,12 @@
+[package]
+name = "conflicting"
+version = { workspace = true }
+edition = { workspace = true }
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.89"
+quote = "1.0.37"
+syn = { version = "2.0.87", features = ["full", "extra-traits"] }

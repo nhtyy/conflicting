@@ -1,0 +1,12 @@
+[package]
+name = "basic_conflicting_example"
+version.workspace = true
+edition.workspace = true
+
+[features]
+a = []
+b = []
+c = []
+
+[dependencies]
+conflicting.workspace = true
