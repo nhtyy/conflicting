@@ -2,6 +2,9 @@
 name = "conflicting"
 version = { workspace = true }
 edition = { workspace = true }
+license = "MIT"
+description = "A library to generate compile time errors for mutually exclusive feature flags."
+repository = "https://github.com/nhtyy/conflicting"
 
 [lib]
 proc-macro = true
