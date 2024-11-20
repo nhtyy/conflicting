@@ -86,8 +86,9 @@ pub fn conflicting(input: TokenStream) -> TokenStream {
         quote::quote! {
             #[cfg(feature = #feature)]
             {
-                #expr 
                 #(#conflicting_cases)*
+
+                #expr 
             }
         }
     })
